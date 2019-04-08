@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang=pt-br dir="ltr">
+    <head>
+    <meta charset="utf-8">
+    <title>Ficha Cadastral</title>
+    </head>
+    <body>
+      <style media="screen">
+        h1{
+          text-align: center;
+          font-style: arial;
+          color: darkgrey;
+          border-color: #e333;
+        }
+        input{
+          text-align: center;
+          background-color:#ddd;
+          border-radius: 5px;
+          padding: 5px;
+          margin: 0 15px;
+        }
+        div{
+
+
+        }
+      </style>
+
+    <h1>Dados Pessoas</h1>
+    <hr />
+    <form class="" action="index.html" method="post">
+    <fieldset>
+      <legend>Dados Pessoais</legend>
+      <div>
+
+      <label>Nome:
+        <input type="text" name="Nome" size="30">
+      </div>
+
+      <div>
+      </label>
+      <label>RG:
+        <input type="number" name="RG" size="30">
+      </label>
+      <label>CPF:
+        <input type="number" name="CPF" size="30">
+      </div>
+
+      <div>
+      </label>
+      <label>Endereço:
+        <input type="text" name="endereço"size="30">
+      </label>
+      </div>
+
+      <div>
+      <label>Gênero:
+        <input type="text" name="Feminino"/>
+      </label>
+      <label>Data de Nascimento:
+        <input type="date" name="volta"/>
+      </div>
+
+      <div>
+        Situação Civil:
+        <br/>
+      <label>
+        <input type="checkbox" name="Solteira" value="s" checked/>Solteira
+      </label>
+        <label>
+        <input type="checkbox" name="Casada" value="c"/>Casada
+        </label>
+          <label>
+          <input type="checkbox" name="Viuva" value="v"/>Viuva
+          </label>
+      </div>
+      </label>
+    </fieldset>
+      <input type="submit" value="Cadastrar" />
+      </form>
+  </body>
+</html>
